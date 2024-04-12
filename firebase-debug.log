@@ -52,3 +52,29 @@
     at Server.emit (node:domain:488:12)
     at emitListeningNT (node:net:1906:10)
     at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+[debug] [2024-04-12T02:40:42.599Z] ----------------------------------------------------------------------
+[debug] [2024-04-12T02:40:42.609Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Hussein\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2024-04-12T02:40:42.610Z] CLI Version:   13.7.1
+[debug] [2024-04-12T02:40:42.610Z] Platform:      win32
+[debug] [2024-04-12T02:40:42.610Z] Node Version:  v21.5.0
+[debug] [2024-04-12T02:40:42.610Z] Time:          Fri Apr 12 2024 04:40:42 GMT+0200 (Eastern European Standard Time)
+[debug] [2024-04-12T02:40:42.611Z] ----------------------------------------------------------------------
+[debug] 
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=437213022&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-04-12T02:40:48.043Z] Unable to open URL: Error: spawn UNKNOWN
+    at ChildProcess.spawn (node:internal/child_process:421:11)
+    at Object.spawn (node:child_process:761:9)
+    at module.exports (C:\Users\Hussein\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\open\index.js:114:34)
+    at open (C:\Users\Hussein\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:137:5)
+    at Server.<anonymous> (C:\Users\Hussein\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:369:13)
+    at Object.onceWrapper (node:events:633:28)
+    at Server.emit (node:events:531:35)
+    at Server.emit (node:domain:488:12)
+    at emitListeningNT (node:net:1906:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
